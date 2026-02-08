@@ -39,7 +39,7 @@ const io = new Server(server, {
     }
 });
 const sessionMid = session({
-    secret:"bitch",
+    secret:"Secret",
     resave:false,
     saveUninitialized:false
 });
